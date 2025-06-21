@@ -1,4 +1,4 @@
-<div id="header-carousel" class="carousel slide" data-ride="carousel" style="margin: 0 20px;">
+<div id="header-carousel" class="carousel slide" data-ride="carousel" style="margin: 0 20px;"> 
                     <div class="carousel-inner">
                         <div class="carousel-item active" style="height: 410px;">
                             <img class="img-fluid" src="img/ensayo.jpg" alt="Image">
