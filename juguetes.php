@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>EShopper - Bootstrap Shop Template</title>
+    <title>Cher Ami - Adult Toy Store</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -30,7 +30,25 @@
 <?php include 'header.php'; ?>
 <?php include 'nav.php'; ?>
 
-<div class="container-fluid pt-5">
+
+<!-- Banner a la derecha -->
+        <div class="col-lg-12 col-md-12 mb-4">
+            <!-- Banner juguetes Start -->
+            <div id="header-carousel" class="carousel slide" data-ride="carousel" style="margin: 0;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 180px;">
+                        <img class="img-fluid" src="img/juguete2.webp" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h3 class="display-4 text-white font-weight-semi-bold mb-4">Juguetes</h3>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+            <!-- Banner juguetes End -->
+
+<div class="container-fluid pt-5">    
     <div class="row px-xl-5">
         <!-- Filtros a la izquierda -->
         <div class="col-lg-3 col-md-12">
@@ -71,33 +89,12 @@
                 </form>
             </div>
             <!-- Price End -->
-            
-        </div>
-        <!-- Banner a la derecha -->
-        <div class="col-lg-9 col-md-12 mb-4">
-            <!-- Banner juguetes Start -->
-            <div id="header-carousel" class="carousel slide" data-ride="carousel" style="margin: 0;">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" style="height: 180px;">
-                        <img class="img-fluid" src="img/juguete2.webp" alt="Image">
-                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                            <div class="p-3" style="max-width: 700px;">
-                                <h3 class="display-4 text-white font-weight-semi-bold mb-4">Juguetes</h3>
-                            </div>
-                        </div>
-                    </div>                        
-                </div>
-            </div>
-            <!-- Banner juguetes End -->
-        </div>
-    </div> <!-- AQUÍ CIERRAS LA FILA DE FILTRO + BANNER -->
-
-    <!-- Productos -->
-    <div class="row px-xl-5">
-        <div class="offset-lg-3 col-lg-9 col-12">
+             
+        </div>      
+        <!-- Productos a la derecha -->
+        <div class="col-lg-9 col-12">
             <!-- Shop Product Start -->
-            <div class="row pb-3">
-                
+            <div class="row pb-3">                
                 <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                     <div class="card product-item border-0 mb-4">
                         <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
@@ -276,6 +273,7 @@
             <!-- Shop Product End -->
         </div>
     </div>
+    </div> 
 </div>
 
 <?php include 'footer.php'; ?>

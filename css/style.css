@@ -54,9 +54,11 @@
 
 /* ...existing code... */
 nav {
-    font-family: 'Georgia', serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
 }
 /* ...existing code... */
+
 
 #navbar-vertical {
     position: absolute;

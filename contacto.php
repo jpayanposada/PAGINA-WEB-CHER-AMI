@@ -23,7 +23,15 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-</head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+
+    </head>
 
 <body>
  <?php include 'header.php'; ?>
@@ -32,71 +40,86 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid mb-5" style="background-color: #f8d8cd;">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
-            <h1 class="font-weight-semi-bold text-uppercase mb-3">Contáctenos</h1>
-            <div class="d-inline-flex">
-                <p class="m-0"><a href="index.php">Inicio</a></p>
-                <p class="m-0 px-2">-</p>
-                <p class="m-0"><a href="tienda.php">Tienda</a></p>
-            </div>
-        </div>
+    
+<div class="container-fluid mb-3">
+    <div class="d-flex flex-column align-items-center justify-content-center text-center" style="min-height: 100px">
+        <h1 class="mb-3" style="font-size: 2rem; color:rgb(0, 0, 0); font-family: 'Nunito', sans-serif;">
+            <strong>CONTÁCTANOS</strong>
+        </h1>
+        <h5 style="
+            max-width: 800px;
+            font-family: 'arial', serif;
+            font-size: 1.1rem;
+            text-align: center;
+            line-height: 1.9;
+            color: #rgb(0, 0, 0);;
+            font-family: 'Nunito', sans-serif;">
+            En <strong>Cher Ami</strong>, estamos para brindarte el mejor servicio. Si tienes alguna duda, inquietud o deseas 
+            conocer más de nuestra marca, no dudes en <strong>contactarnos</strong>.
+        </h5>
     </div>
+</div>
     <!-- Page Header End -->
-
 
     <!-- Contact Start -->
     <div class="container-fluid pt-5">
-        <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Contact For Any Queries</span></h2>
-        </div>
         <div class="row px-xl-5">
             <div class="col-lg-7 mb-5">
                 <div class="contact-form">
                     <div id="success"></div>
+                    <h2 class= "m-4" style="font-family: 'Nunito', sans-serif;"><strong>Formulario de contacto</strong></h2>
                     <form name="sentMessage" id="contactForm" novalidate="novalidate">
                         <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre"
+                                required="required" data-validation-required-message="Por favor introduce tu nombre" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                required="required" data-validation-required-message="Please enter your email" />
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico"
+                                required="required" data-validation-required-message="Por favor introduce tu correo electrónico" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                required="required" data-validation-required-message="Please enter a subject" />
+                            <input type="text" class="form-control" id="subject" placeholder="Asunto"
+                                required="required" data-validation-required-message="Por favor introduce un asunto" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control" rows="6" id="message" placeholder="Message"
+                            <textarea class="form-control" rows="6" id="message" placeholder="Mensaje"
                                 required="required"
-                                data-validation-required-message="Please enter your message"></textarea>
+                                data-validation-required-message="Por favor introduce tu mensaje"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
-                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
-                                Message</button>
+                            <button class="btn py-2 px-4" type="submit" id="sendMessageButton" style="background: rgba(207,142,148,1); color: #000; border: none;">
+                                Enviar Mensaje
+                            </button>
                         </div>
                     </form>
                 </div>
             </div>
             <div class="col-lg-5 mb-5">
-                <h5 class="font-weight-semi-bold mb-3">Get In Touch</h5>
-                <p>Justo sed diam ut sed amet duo amet lorem amet stet sea ipsum, sed duo amet et. Est elitr dolor elitr erat sit sit. Dolor diam et erat clita ipsum justo sed.</p>
+                <img src="img/contacto.jpg" alt="" class="img-fluid" style="border-radius: 10px;">
                 <div class="d-flex flex-column mb-3">
-                    <h5 class="font-weight-semi-bold mb-3">Store 1</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
-                </div>
-                <div class="d-flex flex-column">
-                    <h5 class="font-weight-semi-bold mb-3">Store 2</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                    <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                    <h5 class="font-weight-semi-bold mb-3 mt-3" style="font-family: 'Nunito', sans-serif;">Nuestro contácto</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <a href="https://wa.me/57321654987" target="_blank" style="font-size: 2rem; min-width: 2.5rem; color: rgba(207,142,148,1);">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <span class="ml-2" style="font-size: 1.1rem; color: #222;">321654987</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <a href="https://instagram.com/tuusuario" target="_blank" style="font-size: 2rem; min-width: 2.5rem; color: rgba(207,142,148,1);">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <span class="ml-2" style="font-size: 1.1rem; color: #222;">@CherAmi</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <a href="https://facebook.com/tuusuario" target="_blank" style="font-size: 2rem; min-width: 2.5rem; color: rgba(207,142,148,1);">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <span class="ml-2" style="font-size: 1.1rem; color: #222;">cheramistore</span>
+                    </div>
                 </div>
             </div>
         </div>

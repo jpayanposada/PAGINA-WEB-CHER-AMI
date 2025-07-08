@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>EShopper - Bootstrap Shop Template</title>
+    <title>Cher Ami - Adult Toy Store</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -25,6 +25,8 @@
     <link href="css/style.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 </head>
 
@@ -63,10 +65,10 @@
 
 
     <!-- Categorias Start -->
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-3">
         <div class="row px-xl-5 pb-3">
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="juguetes.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/juguetes/juguete1.jpg" alt="">
@@ -74,8 +76,8 @@
                     <h5 class="font-weight-semi-bold m-0">Juguetes</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="lenceria.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/lenceria/lenceria1.jpg" alt="">
@@ -83,8 +85,8 @@
                     <h5 class="font-weight-semi-bold m-0">Lencería</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="lubricantes.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/lubricantes/lubricante1.jpg" alt="">
@@ -92,8 +94,8 @@
                     <h5 class="font-weight-semi-bold m-0">Lubricantes</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="arnes.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/arnes/arnes1.webp" alt="">
@@ -101,8 +103,8 @@
                     <h5 class="font-weight-semi-bold m-0">Arnés</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="ellos.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/para_ellos/ellos1.webp" alt="">
@@ -110,8 +112,8 @@
                     <h5 class="font-weight-semi-bold m-0">Para ellos</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="ellas.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/para_ellas/ellas1.jpeg" alt="">
@@ -119,8 +121,8 @@
                     <h5 class="font-weight-semi-bold m-0">Para ellas</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="bondage.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/bondage/bondage1.jpg" alt="">
@@ -128,22 +130,13 @@
                     <h5 class="font-weight-semi-bold m-0">Bondage</h5>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
                     <a href="otros.php" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/otros/otros1.avif" alt="">
                     </a>
                     <h5 class="font-weight-semi-bold m-0">Otros</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 pb-1">
-                <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
-                    <p class="text-right">15 Products</p>
-                    <a href="bienestar.php" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/bienestar_sexual/bienestar1.jpg" alt="">
-                    </a>
-                    <h5 class="font-weight-semi-bold m-0">Bienestar sexual</h5>
                 </div>
             </div>
         </div>
@@ -190,7 +183,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/arnes/arnes1.webp" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Arnes</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.000</h6><h6 class="text-muted ml-2"><del>$200.000</del></h6>
@@ -207,7 +200,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/lubricantes/lubricante1.jpg" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Lubricantes</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -224,7 +217,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/producto1.webp" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Dildo</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -241,7 +234,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/producto5.jpeg" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Disfraz</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -258,7 +251,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/producto2.jpg" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Anillo</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -275,7 +268,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/producto3.jpg" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                   <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Conjunto</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -292,7 +285,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/producto4.webp" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Esposas</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -309,7 +302,7 @@
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img class="img-fluid w-100" src="img/producto6.webp" alt="">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                    <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                         <h6 class="text-truncate mb-3">Preservativos</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
@@ -318,175 +311,6 @@
                     <div class="card-footer d-flex justify-content-between bg-light border">
                         <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>Ver detalles</a>
                         <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Products End -->
-
-
-    <!-- Subscribe Start -->
-    <div class="container-fluid bg-secondary my-5">
-        <div class="row justify-content-md-center py-5 px-xl-5">
-            <div class="col-md-6 col-12 py-5">
-                <div class="text-center mb-2 pb-2">
-                    <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Stay Updated</span></h2>
-                    <p>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</p>
-                </div>
-                <form action="">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-white p-4" placeholder="Email Goes Here">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Subscribe</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- Subscribe End -->
-
-
-    <!-- Products Start -->
-    <div class="container-fluid pt-5">
-        <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Productos nuevos</span></h2>
-        </div>
-        <div class="row px-xl-5 pb-3">
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>

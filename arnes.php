@@ -30,6 +30,25 @@
 <?php include 'header.php'; ?>
 <?php include 'nav.php'; ?>
 
+<!-- Banner a la derecha -->
+        <div class="col-lg-12 col-md-12 mb-4">
+            <!-- Banner Arnes Start -->
+            <div id="header-carousel" class="carousel slide" data-ride="carousel" style="margin: 0;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 180px;">
+                        <img class="img-fluid" src="img/juguete2.webp" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h3 class="display-4 text-white font-weight-semi-bold mb-4">Arnés</h3>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+            <!-- Banner Arnes End -->
+        </div>
+    </div> 
+
 <div class="container-fluid pt-5">
     <div class="row px-xl-5">
         <!-- Filtros a la izquierda -->
@@ -70,32 +89,11 @@
                     </div>
                 </form>
             </div>
-            <!-- Price End -->
-            
+            <!-- Price End -->            
         </div>
-        <!-- Banner a la derecha -->
-        <div class="col-lg-9 col-md-12 mb-4">
-            <!-- Banner juguetes Start -->
-            <div id="header-carousel" class="carousel slide" data-ride="carousel" style="margin: 0;">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" style="height: 180px;">
-                        <img class="img-fluid" src="img/juguete2.webp" alt="Image">
-                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                            <div class="p-3" style="max-width: 700px;">
-                                <h3 class="display-4 text-white font-weight-semi-bold mb-4">Arnés</h3>
-                            </div>
-                        </div>
-                    </div>                        
-                </div>
-            </div>
-            <!-- Banner juguetes End -->
-        </div>
-    </div> <!-- AQUÍ CIERRAS LA FILA DE FILTRO + BANNER -->
 
     <!-- Productos -->
-    <div class="row px-xl-5">
-        <div class="offset-lg-3 col-lg-9 col-12">
-            <!-- Shop Product Start -->
+        <div class="col-lg-9 col-12">
             <div class="row pb-3">
                 
                 <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
