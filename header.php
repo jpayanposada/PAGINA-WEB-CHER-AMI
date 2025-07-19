@@ -1,3 +1,14 @@
+<head>
+    <meta charset="utf-8">
+    <title>Cher Ami - Adult Toy Store</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 <!-- Barra superior de redes sociales -->
 <!-- Carrusel de frases en la barra superior -->

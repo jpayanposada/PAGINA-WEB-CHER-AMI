@@ -28,6 +28,37 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
+    <style>
+    /* Cards de productos uniformes */
+    .product-item {
+        height: 100%;
+        min-height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .product-img {
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+    }
+    .product-img img {
+        height: 200px;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        background: #fff;
+    }
+    .cat-item {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    </style>
+
 </head>
 
 <body>
@@ -65,6 +96,9 @@
 
 
     <!-- Categorias Start -->
+     <div class="text-center mb-4">
+            <h2 class="section-title px-5" style= "font-family: 'Nunito', sans-serif;"><span class="px-2">Nuestras Categorías</span></h2>
+        </div>
     <div class="container-fluid pt-3">
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 pb-1">
@@ -145,23 +179,24 @@
 
 
     <!-- Anuncios Start -->
+
     <div class="container-fluid offer pt-5 ">
         <div class="row px-xl-5" >
             <div class="col-md-6 pb-4" >
-                <div class="position-relative text-center text-md-right text-white mb-2 py-5 px-5" style="background-color:rgb(207, 120, 120);" >
+                <div class="position-relative text-center text-md-right text-white mb-2 py-5 px-5" style="background-color:rgba(207,142,148,255);" >
                     <img src="img/lenceria/lenceria1_sf.png" alt="">
-                    <div class="position-relative" style="z-index: 1;" >
-                        <h5 class="text-uppercase text-primary mb-3">20% de descuento en tu primera compra</h5>
+                    <div class="position-relative" style="z-index: 1; font-family: 'Nunito', sans-serif;">
+                        <h5 class="text-uppercase mb-3" style= "color:rgb(255, 255, 255);">20% de descuento en tu primera compra</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Lencería</h1>
                         <a href="tienda.php" class="btn py-md-2 px-md-3" style="background-color:  #f8d8cd;; color: black; border: 1px solid #ccc;">Ver más</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 pb-4">
-                <div class="position-relative text-center text-md-left text-white mb-2 py-5 px-5" style="background-color:rgb(207, 120, 120);">
+                <div class="position-relative text-center text-md-left text-white mb-2 py-5 px-5" style="background-color:rgba(207,142,148,255);">
                     <img src="img/juguetes_sf.png" alt="">
-                    <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">Bono por $50.000 por compras mayores a $500.000 </h5>
+                    <div class="position-relative" style="z-index: 1; font-family: 'Nunito', sans-serif;">
+                        <h5 class="text-uppercase mb-3" style= "color:rgb(255, 255, 255);">Bono por $50.000 por compras mayores a $500.000 </h5>
                         <h1 class="mb-4 font-weight-semi-bold">Todos nuestros productos</h1>
                         <a href="tienda.php" class="btn py-md-2 px-md-3" style="background-color:  #f8d8cd;; color: black; border: 1px solid #ccc;">Ver más</a>
                     </div>
@@ -175,7 +210,7 @@
     <!-- Products Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Algunos productos</span></h2>
+            <h2 class="section-title px-5"><span class="px-2" style= "font-family: 'Nunito', sans-serif;">Algunos productos</span></h2>
         </div>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
@@ -354,6 +389,8 @@
     </div> -->
     <!-- Vendor End -->
 
+    <?php include 'btn_redes.php'; ?>
+
     <?php include 'footer.php'; ?>
 
     <!-- Back to Top -->
@@ -372,6 +409,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
